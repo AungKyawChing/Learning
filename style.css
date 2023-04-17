@@ -1,3 +1,7 @@
+*{
+    background-color: black;
+    color: white;
+}
 a{
     color: #FF69B4;
     background-color: #000080;
@@ -9,6 +13,10 @@ a{
 a:hover{
     color: #000080;
     background-color: #FF69B4;
+}
+a:active,a:focus{
+    color: #000000;
+    background-color: green;
 }
 li{
     padding: 20px;
