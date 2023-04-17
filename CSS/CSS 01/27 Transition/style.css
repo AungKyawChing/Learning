@@ -1,0 +1,30 @@
+div{
+    background-image: url(./../../../image.jpg);
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+.separate{
+    transition-duration: 1s;
+    transition-delay: 1s;
+    transition-timing-function: cubic-bezier(0.01, 1.1, 0.87, -0.15) ;
+}
+.separate:hover, .AllInOne:hover{
+    width: 300px;
+    height: 300px;
+}
+#width{
+    transition-property: width;
+}
+#all{
+    transition-property: all; /* Its Default */
+}
+.AllInOne, #CircleAndColorChange{
+    transition: all 3s 1s linear;/* property duration delay timing-function */
+}
+#CircleAndColorChange:hover{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    transform: rotate(360deg);
+}

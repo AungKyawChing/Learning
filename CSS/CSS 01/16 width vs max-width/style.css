@@ -1,0 +1,10 @@
+div{
+    border: 2px solid green;
+    margin: auto;
+}
+.div1{
+   width: 1000px;
+}
+.div2{
+    max-width: 1000px;
+}

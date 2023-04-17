@@ -1,0 +1,16 @@
+a{
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    background-color: whitesmoke;
+}
+a:active{
+    color: red;
+}
+a:visited{
+    background-color: green;
+}

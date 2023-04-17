@@ -1,0 +1,25 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border: 5px solid red;
+    margin: 20px;
+}
+.div1{
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+}
+.div2{
+    padding: 20px 10px 30px 100px;
+}
+.div3{
+    padding: 20px 100px 30px;
+}
+.div4{
+    padding: 50px 100px;
+}
+.div5{
+    padding: 90px;
+}

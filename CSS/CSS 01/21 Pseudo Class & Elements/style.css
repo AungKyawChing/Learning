@@ -1,0 +1,28 @@
+a:hover{
+    background-color: green;
+    color: red;
+}
+h2:nth-child(3){
+    color: red;
+}
+h3:nth-child(8){
+    color: yellowgreen;
+}
+h2:first-child{   /* Not Working. Because Its On Server LinkLi*/
+    color: yellowgreen;
+}
+
+.first-letter::first-letter{
+    color: red;
+    font-size: 40px;
+}
+.first-line::first-line{
+    color: red;
+    font-size: 4vh;
+}
+h1::before{
+    content: url(./../../../Images/Profile\ Picture.jpg);
+}
+h1::after{
+    content: url(./../../../Images/Profile\ Picture.jpg);
+}

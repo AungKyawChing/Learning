@@ -1,0 +1,29 @@
+h1{
+    color: red;
+    background-color: green;
+    text-align: center;
+}
+p{
+    color: blue;
+}
+.p1{
+    text-transform: lowercase;
+}
+.p2{
+    text-transform: uppercase;
+}
+.p3{
+    text-transform: capitalize;
+}
+.p4{
+    text-indent: 50px;
+}
+.p5{
+    letter-spacing: 8px;
+}
+.p6{
+    word-spacing: 20px;
+}
+.p7{
+    line-height: 50px;
+}

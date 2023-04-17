@@ -1,0 +1,21 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border: 5px solid red;
+    margin: 20px;
+    padding: 20px;
+}
+.div1{
+    outline-width: 10px;
+    outline-style: dashed;
+    outline-color: green;
+    outline-offset: 8px;
+}
+.div2{
+    outline: 10px dashed green;
+    outline-offset: 8px;
+}
+.div3{
+    outline: 10px dashed green;
+}

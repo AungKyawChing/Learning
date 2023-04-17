@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    display: inline;
+}
+span{
+    text-align: center;
+    display: block;
+}
+
+b{
+    display:none;
+}
+
+li{
+    display: inline;
+}
+
+p{
+    background-color: yellow;
+    color: green;
+    width: 150px;
+    text-align: center;
+}
+.inline{
+    display: inline;
+}
+.inline_block{
+display: inline-block;
+}

@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: rgb(28, 31, 31);
+    color: white;
+    width: 100%;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+p{
+    max-width: 600px;
+    margin: auto;
+    position: relative;
+    top: -25px;
+}
+i{
+    font-size: 40px;
+    position: relative;
+    top: -13px;
+}
+#©{
+    height: 50px;
+    background-color: black;
+    line-height: 54px;
+    font-size: 25px;
+}

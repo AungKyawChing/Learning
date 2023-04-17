@@ -1,0 +1,38 @@
+#Name{
+    color: tomato;
+}
+#RGB{
+    color: rgb(255, 99, 71, 0.7); /* Opacity Added 0.7 */
+}
+#HEX{
+    color: #ff6347;
+}
+div{
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+}
+.gradient1{
+    background: linear-gradient(red ,green);
+}
+.gradient2{
+    background: linear-gradient(rgba(255,0,0,0.5),rgba(0,255,0,0.6)); /* 0.5 & 0.6 Opacity Added */
+}
+.gradient3{
+    background: linear-gradient(red 20%,green 80%); /* Here Red 20% & Green 80% Specified */
+}
+.gradient4{
+    background: linear-gradient(red 150px,green); /* The Alternative Of % Specified */
+}
+.gradient5{
+    background: linear-gradient(to right, red ,green);
+}
+.gradient6{
+    background: linear-gradient( to bottom left,red ,green);
+}
+.gradient7{
+    background: linear-gradient(150deg,red ,green);/* Also We Can use XXdeg */
+}
+.gradient8{
+    background: radial-gradient(red, green);
+}

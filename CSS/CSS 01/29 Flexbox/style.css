@@ -1,0 +1,144 @@
+.flexbox{
+    background-color: red;
+    font-size: 30px;
+}
+.flexbox > div{
+    background-color: green;
+    margin: 5px;
+    padding: 5px;
+    width: 73px;
+}
+#DisplayFlex{
+    display: flex;
+}
+#FlexWrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+#FlexWrapReverse{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+#DirectionColumn{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#DirectionRowReverse{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+#WrapAndDirection{
+    display: flex;
+    flex-flow: wrap-reverse column-reverse;
+}
+#JustifyContentFlexStart{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: flex-start;/* Its Default */
+}
+#JustifyContentFlexEnd{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: flex-end;
+}
+#JustifyContentCenter{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+}
+#JustifyContentSpaceAround{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+}
+#JustifyContentSpaceBetween{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+}
+#height{
+    display: flex;
+    flex-flow: wrap row;
+    height: 300px;
+}
+#AlignItemFlexStart{
+    display: flex;
+    flex-flow: wrap row;
+    height: 300px;
+    align-items: flex-start;
+}
+#AlignItemFlexEnd{
+    display: flex;
+    flex-flow: wrap row;
+    height: 300px;
+    align-items: flex-end;
+}
+#AlignItemCenter{
+    display: flex;
+    flex-flow: wrap row;
+    height: 300px;
+    align-items: center;
+}
+#order{
+    display: flex;
+    flex-wrap: wrap;
+}
+#order > div:nth-child(7){
+    order: -1;
+}
+
+
+#flexbox1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
+#flexbox2{
+    display: flex;
+    flex-flow: wrap-reverse column-reverse;
+}
+#flexbox3{
+    display: flex;
+    flex-flow: wrap row-reverse;
+    justify-content: space-around;
+}
+#flexbox4{
+    display: flex;
+    flex-flow: wrap-reverse row-reverse;
+    justify-content: space-around;
+    height: 500px;
+    align-items: flex-start;
+}
+#flexbox5{
+    display: flex;
+    flex-flow: wrap-reverse row-reverse;
+    justify-content: space-around;
+    height: 500px;
+    align-items: flex-end;
+}
+#flexbox6{
+    display: flex;
+    flex-flow: wrap-reverse row-reverse;
+    justify-content: space-around;
+    height: 500px;
+    align-items: center;
+}
+#flexbox7{
+    display: flex;
+    flex-flow: wrap-reverse row-reverse;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+#flexbox8{
+    display: flex;
+    flex-flow: wrap-reverse row-reverse;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+#flexbox8 > div:nth-child(6){
+    order: 1;
+}

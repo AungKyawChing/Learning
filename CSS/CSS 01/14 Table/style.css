@@ -1,0 +1,9 @@
+table,th,td{
+    border: 2px solid tomato;    
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    color: green;
+    text-align: left;
+}

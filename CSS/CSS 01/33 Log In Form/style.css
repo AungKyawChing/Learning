@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+#form{
+    background-color: crimson;
+    text-align: center;
+    margin: 150px auto 0px;
+    font-size: 40px;
+    border-radius: 30px 30px 70px 70px;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px 80px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+input{
+    position: relative;
+    top: -10px;
+    border-radius: 25px;
+    border: 5px solid crimson;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+}
+.button{
+    padding: 0px 60px;
+}

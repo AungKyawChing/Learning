@@ -1,0 +1,46 @@
+.img1{
+    float:left;
+}
+.img2{
+    float: right;
+}
+.img3{
+    float: right;
+}
+.p3{
+    clear: right;/* We Can Also Use "clear: both" */
+}
+.img4{
+    float: left;
+}
+.p4{
+    clear: left; /* We Can Also Use "clear: both" */
+}
+.img5{
+    width: 250px;
+    float: right;
+}
+.img6{
+    width: 250px;
+    float: left;
+}
+.p5{
+    clear: both; /* We Can Also Use "clear: right" OR "clear: left" */
+}
+div{
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}

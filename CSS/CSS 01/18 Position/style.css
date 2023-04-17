@@ -1,0 +1,53 @@
+div{
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
+.Box1{
+    top: 0;
+    left: 0;
+}
+.Box2{
+    top: 0;
+    right: 0;
+}
+.Box3{
+    bottom: 0;
+    right: 0;
+}
+.Box4{
+    bottom: 0;
+    left: 0;
+}
+.Box5{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+.Box6{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.Box7{
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.Box8{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.Box9{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}

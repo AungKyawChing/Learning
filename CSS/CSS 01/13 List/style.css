@@ -1,0 +1,32 @@
+.ul1{
+    list-style-type: square;
+}
+.ul2{
+    list-style-type: circle;
+}
+.ul3{
+    list-style-type: lower-roman;
+}
+.ul4{
+    list-style-type: upper-alpha;
+}
+.ul5{
+    list-style-type: decimal;
+}
+.ul6{
+    list-style-type: decimal-leading-zero;
+}
+.ul7{
+    list-style-type: decimal-leading-zero;
+}
+.ul8{
+    list-style-type: decimal-leading-zero;
+    list-style-position: inside;
+}
+.ul9{
+    list-style-image: url(List\ Icon.png);
+    list-style-position: inside;
+}
+.ul{
+    list-style: square inside url(List\ Icon.png);
+}

@@ -1,0 +1,18 @@
+div{
+    border: 2px solid red;
+    margin: auto;
+    max-width: 1200px;
+    height: 120px;
+}
+.div1{
+    overflow: hidden;
+}
+.div2{
+    overflow: scroll;
+}
+.div3{
+    overflow: auto;
+}
+.div4{
+    overflow: visible; /* it is Default */
+}
