@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>19 Form</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Contact Us</legend>
+            First Name:<br>
+            <input type="text"><br>
+            Last Name:<br>
+            <input type="text"><br>
+            Gender:<br>
+            <input type="radio" name="Gender">Male
+            <input type="radio" name="Gender">Female
+            <input type="radio" name="Gender">Others<br>
+            <input type="submit" value="Send">
+        </fieldset>
+    </form>
+    <br><br>
+    Dropdown:
+    <select>
+        <option value="null">Select Number</option>
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+    </select>
+    <br>
+    Multi Select Dropdown:
+    <select multiple>
+        <option value="null">Select Number</option>
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+    </select>
+    <br>
+    Multi Select Dropdown(Size Incresed):
+    <select multiple size="15">
+        <option value="null">Select Number</option>
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+    </select>
+    <textarea cols="50" rows="20" placeholder="Enter Your Text"></textarea>
+    <h1 style="text-align: center;">Sign Up Form</h1>
+    <hr>
+    <label for="name">Name:</label><br>
+    <input type="text" name="" id="name" placeholder="First Name">
+    <input type="text" name="" id="name" placeholder="Last Name"><br>
+    <label for="email">Email:</label><br>
+    <input type="email" name="" id="email" placeholder="Mail Address"><br>
+    <label for="password">Password:</label><br>
+    <input type="password" name="" id="password" placeholder="Password"><br>
+    <label for="phone">Phone:</label><br>
+    <select name="" id="">
+        <option value="+880">+880</option>
+        <option value="+990">+990</option>
+        <option value="+110">+110</option>
+    </select>
+    <input type="number" name="" id="phone" placeholder="1234567890"><br>
+    <label for="country">Country:</label>
+    <input list="Country" id="country">
+    <datalist id="Country">
+        <option value="United States"></option>
+        <option value="Canada"></option>
+        <option value="Australia"></option>
+        <option value="Russia"></option>
+    </datalist>
+    <br>
+    Gender:
+    <input type="radio" name="Gender" id="Male">
+    <label for="Male">Male</label>
+    <input type="radio" name="Gender" id="Female">
+    <label for="Female">Female</label>
+    <input type="radio" name="Gender" id="Others">
+    <label for="Others">Others</label><br>
+    <label for="Date">Date Of Birth:</label>
+    <input type="date" name="" id="Date"><br>
+    <label for="time">Time:</label>
+    <input type="time" name="" id="time"><br>
+    <label for="color">Color:</label>
+    <input type="color" name="" id="color"><br>
+    <label for="file">Upload File:</label>
+    <input type="file" name="" id="file"><br>
+    <input type="checkbox" name="" id="bike">
+    <label for="bike">I have bike.</label>
+    <input type="checkbox" name="" id="bycycle">
+    <label for="bycycle">I have bycycle.</label><br>
+    <textarea name="" id="" cols="30" rows="10">Write Comment</textarea><br>
+    <input type="submit" value="Send">
+    <input type="reset" value="Reset">
+</body>
+</html>
